@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<!--user-scalable=no-->
+		<!--是否允许缩放 no不可以 yes可以-->
+		<script type="text/javascript">
+			var head = document.getElementsByTagName('head')[0];
+			var meta = document.createElement('meta');
+			meta.name = "viewport";
+			var i = window.devicePixelRatio>1?1/ window.devicePixelRatio:1;
+			meta.content = "width=device-width,user-scalable=no,initial-scale="+i+",maximum-scale="+i+",minimum-scale="+i;
+			head.appendChild(meta);
+		</script>	
+		<script type="text/javascript">
+			var html = document.getElementsByTagName('html')[0];
+			var iW = window.innerWidth;
+			var font = iW/27;
+			//像素除40
+			html.style.fontSize = font+'px';
+		</script>
+	</head>
+	<body>
+		<!--注册页面-->
+		<div id="box">
+			<div class="top">
+				<ul>
+					<li>
+						<a href="Login.html">&nbsp;&nbsp;&lt;&nbsp;&nbsp;</a>
+					</li>
+					<li>新用户注册</li>
+					<li>
+						<a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					</li>
+				</ul>
+			</div>
+			<div class="Middle">
+				<ul>
+					<li>
+						<input type="text" name="" id="" value="" placeholder="手机号"/>
+					</li>
+					<li>
+						<input type="password" name="" id="" value="" placeholder="密码"/>
+					</li>
+					<li>
+						<input type="password" name="" id="" value="" placeholder="验证码"/>
+						<input type="button" name="" id="" value="发送验证" />
+					</li>
+					<li>
+						<input type="button" name="" id="" value="登录" />
+					</li>
+				</ul>
+			</div>
+			<div class="buttonA">
+				<p>我已阅读&laquo;如意购协议&raquo;</p>
+			</div>
+			
+			
+		</div>
+		
+	</body>
+</html>

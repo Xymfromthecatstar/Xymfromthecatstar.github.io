@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	height: 0;
+}
+#box{
+	width: 27rem;
+	height: 46.275rem;
+	background: black;
+	background: url(../img/back.jpg) no-repeat;
+	background-size: cover;
+}
+.top{
+	width: 27rem;
+	height: 3.5rem;
+}
+.top ul{
+	width: 27rem;
+	height: 3.5rem;
+	margin: 0;
+	padding: 0;
+}
+.top ul li{
+	width: 9rem;
+	height: 3.5rem;
+	list-style: none;
+	float: left;
+	font-family: "微软雅黑";
+	line-height: 3.5rem;
+	color: #F4F4F4;
+}
+.top ul li:nth-of-type(1){
+	text-indent: 0.5rem;
+}
+.top ul li:nth-of-type(1) a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.top ul li:nth-of-type(2){
+	text-align: center;
+	font-size: 1.2rem;
+}
+.top ul li:nth-of-type(3){
+	text-align: right;
+	
+}
+.Middle{
+	width: 27rem;
+	height: 20.95rem;
+	margin-top: 3rem;
+}
+.Middle ul{
+	width: 23.65rem;
+	height: 20.95rem;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	color: white;
+	margin: 0 auto;
+	list-style: none;
+}
+.Middle ul li{
+	width: 23.65rem;
+	height: 3.65rem;
+	margin-top: 1.1rem;
+}
+.Middle ul li input{
+	width: 23.65rem;
+	height: 3.65rem;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background: white;
+	border-radius: 0.5rem;
+}
+
+.Middle ul li:nth-of-type(3) input:nth-of-type(1){
+	width: 15rem;
+}
+.Middle ul li:nth-of-type(3) input:nth-of-type(2){
+	width: 7rem;
+	border-radius: 0rem;
+	text-indent: 0rem;
+	margin-left: 1.3rem;
+}
+.Middle ul li:nth-of-type(1) input,li:nth-of-type(2) input,li:nth-of-type(3) input{
+	font-size: 1rem;
+	text-indent: 2rem;
+	color: #787878;
+}
+
+.Middle ul li:nth-of-type(4) input{
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	color: white;
+	background: red;
+}
+
+
+
+.buttonA{
+	width: 27rem;
+	height: 2rem;
+	color: white;
+	text-align: center;
+	line-height:2rem;
+}
+
+
+
+

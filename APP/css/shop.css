@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.TopSp{
+	width:27rem;
+	height: 1rem;
+	margin-top: 1rem;
+}
+.TopSp ul li{
+	width:9rem;
+	height: 1rem;
+	float: left;
+	font-size: 0.5rem;
+	list-style: none;
+	text-align: center;
+	line-height:1rem;
+	text-decoration: none;
+	cursor: pointer;
+}
+.TopSp ul li:nth-of-type(2){
+	font-size: 1rem;
+}
+a{
+	text-decoration: none;
+}
+.TopSp ul li:nth-of-type(1){
+	text-align: left;
+	text-indent: 1rem;
+}
+.Carousel{
+	margin-top: 2rem;
+}
+.Carousel ul{
+	width:27rem;
+	height: 14rem;
+	overflow: hidden;
+}
+.Carousel ul li{
+	width:27rem;
+	height: 14rem;
+}
+.Carousel li img{
+	width:27rem;
+	height: 10.55rem;
+}
+.Carousel li>span:nth-of-type(1){
+	color: red;
+}
+.Carousel li>span:nth-of-type(2){
+	font-size: 0.6rem;
+	text-decoration: line-through;
+	color: #979797;
+}
+.Carousel li>span:nth-of-type(3){
+	margin-left: 2.2rem;
+	font-size: 0.8rem;
+	color: #979797;
+}
+.Carousel li>span:nth-of-type(4){
+	font-size: 0.6rem;
+	color: red;
+}
+.Carousel li>span:nth-of-type(5){
+	color: #979797;
+	font-size: 0.8rem;
+}
+.list{
+	width:27rem;
+	height: 1rem;
+}
+.list ul{
+	width:19rem;
+	margin: 0 auto;
+	text-align: center;
+	list-style: none;
+}
+.list ul li{
+	width:6.3rem;
+	float: left;
+	line-height: height: 1rem;
+}
+.details{
+	display: none;
+}
+.gg{
+	display: none;
+}
+.shopC{
+	width:18rem;
+	height: 2rem;
+	margin: 1rem auto;
+}
+.shopC input{
+	width:7.5rem;
+	height: 2rem;
+	outline: none;
+	float: left;
+	border: none;
+	font-size: 0.8rem;
+	cursor: pointer;
+}
+.shopC input:nth-of-type(2){
+	margin-left: 3rem;
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

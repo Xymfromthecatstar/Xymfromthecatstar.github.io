@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	height: 0;
+}
+#box{
+	width: 27rem;
+	height: 46.275rem;
+	background: url(../img/bck.jpg) no-repeat;
+	background-size: cover;
+}
+.top{
+	width: 27rem;
+	height: 3.5rem;
+}
+.top ul{
+	width: 27rem;
+	height: 3.5rem;
+	margin: 0;
+	padding: 0;
+}
+.top ul li{
+	width: 9rem;
+	height: 3.5rem;
+	list-style: none;
+	float: left;
+	font-family: "微软雅黑";
+	line-height: 3.5rem;
+	color: #F4F4F4;
+}
+.top ul li:nth-of-type(1){
+	text-indent: 0.5rem;
+	
+}
+.top ul li:nth-of-type(2){
+	text-align: center;
+	font-size: 1.2rem;
+}
+.top ul li:nth-of-type(3){
+	text-align: right;
+	
+}
+.top ul li:nth-of-type(3) a,li:nth-of-type(1) a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.Middle{
+	width: 27rem;
+	height: 16.95rem;
+	margin-top: 3rem;
+}
+.Middle ul{
+	width: 23.65rem;
+	height: 16.95rem;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	color: white;
+	margin: 0 auto;
+	list-style: none;
+}
+.Middle ul li{
+	width: 23.65rem;
+	height: 3.65rem;
+}
+.Middle ul li input{
+	width: 23.65rem;
+	height: 3.65rem;
+	outline: none;
+	cursor: pointer;
+	background: white;
+	border-radius: 0.5rem;
+}
+.Middle ul li:nth-of-type(2){
+	margin-top: 1.1rem;
+}
+.Middle ul li:nth-of-type(3){
+	height: 4.775rem;
+	line-height: 3rem;
+	text-align: right;
+}
+.Middle ul li:nth-of-type(1) input,li:nth-of-type(2) input{
+	font-size: 1rem;
+	background-image:url(../img/js.png);
+	background-repeat: no-repeat;
+	background-position: 0.6rem 1.1rem;
+	text-indent: 2rem;
+	color: #787878;
+}
+.Middle ul li:nth-of-type(2) input{
+	background-image:url(../img/mi.png);
+	background-repeat: no-repeat;
+	background-position: 0.6rem 1.1rem;
+	
+}
+.Middle ul li:nth-of-type(4) input{
+	font-size: 1.5rem;
+	color: white;
+	border: none;
+	background: red;
+}
+
+
+.buttonA{
+	width: 27rem;
+	height: 10.225rem;
+}
+.buttonA ul{
+	width: 24rem;
+	height: 10.225rem;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+#LineA{
+	width:6rem;
+	height:0.08rem;
+	float: right;
+	margin-top: 5.12rem;
+	padding:0px;
+	background-color:#D5D5D5;
+}
+#LineB{
+	width:6rem;
+	height:0.08rem;
+	margin-top: 5.12rem;
+	padding:0px;
+	background-color:#D5D5D5;
+}
+.buttonA ul{
+	width: 24rem;
+	height: 10.225rem;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+.buttonA ul li{
+	width: 8rem;
+	float: left;
+	height: 10.225rem;
+	text-align: center;
+	color: white;
+	line-height:10.225rem;
+}
+.buttonB{
+	width: 27rem;
+	height: 5rem;
+}
+.buttonB ul{
+	width: 12.2rem;
+	height: 5rem;
+	margin: 0 auto;
+	list-style: none;
+	color: wheat;
+}
+.buttonB ul li{
+	width: 6.1rem;
+	height: 5rem;
+	float: left;
+	text-align: center;
+}
+.buttonB ul li img{
+	width: 3rem;
+	height: 3rem;
+}
+.buttonB ul li p{
+	margin-top: 0.5rem;
+}
+
+
+
+
