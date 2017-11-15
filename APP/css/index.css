@@ -10,7 +10,7 @@ body{
 .fixed ul{
 	position: fixed;
 	list-style: none;
-	top: 42.6rem;
+	bottom: 2rem;
 	left: 8.4rem;
 	width: 10.2rem;
 	height: 3.1rem;
