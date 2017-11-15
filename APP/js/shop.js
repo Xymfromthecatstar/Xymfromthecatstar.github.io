@@ -18,7 +18,7 @@ function autoImg(){
 				}
 			}
 			
-		var timer = setInterval(autoImg,3000);
+var timer = setInterval(autoImg,3000);
 
 
 
