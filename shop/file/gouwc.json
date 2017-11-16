@@ -1,0 +1,13 @@
+{
+	"001":[
+	{"imgsrc0":"img/cs.img/cs1.png","imgsrc1":"img/cs.img/cs2.png","imgsrc2":"img/cs.img/cs3.png","imgsrc3":"img/cs.img/cs4.png","name":"魅族","name2":"魅族 PRO 7 Plus","price":"￥3599"}
+	],
+	"002":[
+	{"imgsrc0":"img/cs.img/cs11.png","imgsrc1":"img/cs.img/cs22.png","imgsrc2":"img/cs.img/cs33.png","imgsrc3":"img/cs.img/cs44.png","name":"魅族","name2":"魅族 PRO 7","price":"￥2599"}
+	],
+	"003":[
+	{"imgsrc0":"img/cs.img/cs111.png","imgsrc1":"img/cs.img/cs222.png","imgsrc2":"img/cs.img/cs333.png","imgsrc3":"img/cs.img/cs444.png","name":"魅族","name2":"魅族 PRO 6s","price":"￥2299"}
+	]
+	
+}
+

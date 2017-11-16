@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/cookie1.js">
+		
+	</script>
+		
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.nav {
+				height: 60px;
+				width: 100%;
+				background: white;
+				border-bottom: 1px solid #999999;
+			}
+			
+			#nav {
+				height: 60px;
+				width: 1250px;
+				background: white;
+				margin: 0 auto;
+				cursor: pointer;
+			}
+			
+			#nav ul li {
+				list-style: none;
+				margin: 0 10px;
+				line-height: 60px;
+				text-align: center;
+			}
+			
+			#nav ul li:hover {
+				color: dodgerblue;
+			}
+			
+			#nav ul:nth-of-type(1) li {
+				float: left;
+			}
+			
+			#nav ul:nth-of-type(1) li:nth-of-type(1) {
+				line-height: 75px;
+			}
+			
+			#nav ul:nth-of-type(2) li {
+				float: right;
+			}
+			
+			#Shopping {
+				width: 1250px;
+				/*height: 80px;*/
+				margin: 0 auto;
+				background: white;
+			}
+			
+			#footerBot {
+				width: 1900px;
+				height: 292px;
+				background: white;
+				margin: 0 auto;
+			}
+			
+			#footerBot>div:nth-of-type(1) {
+				width: 1245px;
+				height: 192px;
+				margin: 0 auto;
+				border-bottom: 1px solid #999999;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) {
+				width: 940px;
+				height: 192px;
+				float: left;
+				background: white;
+				list-style: none;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul {
+				width: 940px;
+				height: 95px;
+				background: white;
+				list-style: none;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul:nth-of-type(1) li {
+				width: 220px;
+				height: 90px;
+				line-height: 90px;
+				padding-top: 30px;
+				box-sizing: border-box;
+				float: left;
+				background: white;
+				text-indent: 40px;
+				position: relative;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul:nth-of-type(1) li:nth-of-type(1) {
+				width: 200px;
+				height: 90px;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul:nth-of-type(1) li img {
+				position: absolute;
+				top: 60px;
+				left: 10px;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul:nth-of-type(2) li {
+				width: 220px;
+				height: 90px;
+				padding-top: 30px;
+				box-sizing: border-box;
+				float: left;
+				line-height: 30px;
+				background: white;
+				text-indent: 40px;
+				position: relative;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul:nth-of-type(2) li:nth-of-type(1) {
+				width: 200px;
+				height: 90px;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(1) ul:nth-of-type(2) li img {
+				position: absolute;
+				top: 30px;
+				left: 10px;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(2) {
+				width: 250px;
+				height: 192px;
+				float: left;
+				background: white;
+				position: relative;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(2) p:nth-of-type(1) {
+				position: absolute;
+				top: 50px;
+				right: 0;
+				font-family: "微软雅黑";
+				color: #999999;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(2) p:nth-of-type(2) {
+				position: absolute;
+				top: 70px;
+				right: 0;
+				font-size: 25px;
+				font-family: "微软雅黑";
+				color: dodgerblue;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(2) p:nth-of-type(3) img {
+				width: 30px;
+				height: 30px;
+				margin-top: 8px;
+				margin-left: 10px;
+				float: left;
+			}
+			
+			#footerBot>div:nth-of-type(1) div:nth-of-type(2) p:nth-of-type(3) {
+				position: absolute;
+				top: 100px;
+				right: 0;
+				width: 165px;
+				height: 40px;
+				background: white;
+				font-family: "微软雅黑";
+				color: white;
+				line-height: 42px;
+				text-indent: 10px;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(2) {
+				width: 1245px;
+				height: 100px;
+				margin: 0 auto;
+				background: white;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul {
+				width: 1245px;
+				height: 45px;
+				background: white;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul:nth-of-type(1) li {
+				float: left;
+				margin-left: 10px;
+				text-align: center;
+				line-height: 60px;
+				list-style: none;
+				height: 45px;
+				color: #999999;
+				background: white;
+				cursor: pointer;
+				font-size: 14px;
+				font-family: "微软雅黑";
+			}
+			
+			#footerBot>div:nth-of-type(2) ul:nth-of-type(1) li:hover {
+				color: dodgerblue;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul:nth-of-type(2) li {
+				float: left;
+				margin-left: 10px;
+				text-align: center;
+				line-height: 45px;
+				list-style: none;
+				color: #999999;
+				height: 45px;
+				background: white;
+				font-size: 14px;
+				font-family: "微软雅黑";
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li img {
+				width: 14px;
+				height: 14px;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(8) img:nth-of-type(2) {
+				display: none;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(9) img:nth-of-type(2) {
+				display: none;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(10) img:nth-of-type(2) {
+				display: none;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(11) img {
+				margin-left: 10px;
+				width: 90px;
+				height: 40px;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(2):hover {
+				color: dodgerblue;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(3):hover {
+				color: dodgerblue;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(4):hover {
+				color: dodgerblue;
+				cursor: pointer;
+			}
+			
+			#footerBot>div:nth-of-type(2) ul li:nth-of-type(5):hover {
+				color: dodgerblue;
+				cursor: pointer;
+			}
+			#container{
+				margin-left: 100px;
+				width: 1250px;
+				
+			}
+			td img{
+				width: 80px;
+				height: 80px;
+				
+			}
+			
+			.up,.down{
+				width: 100px;
+				height: 100px;
+			}
+			.num{
+				width: 80px;
+				height: 50px;
+			}
+			.ck{
+				width: 30px;
+				height: 30px;
+			}
+			
+			
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="nav">
+			<div id="nav">
+
+				<ul>
+					<li>
+						<img src="img/zhuy.img/9.jpg" />
+					</li>
+					<li>
+						购物车
+					</li>
+					<li>
+						确认订单
+					</li>
+					<li>
+						在线支付完成
+					</li>
+
+				</ul>
+				<ul>
+					<li>
+						我的订单
+					</li>
+					<li>
+						登录
+					</li>
+					<li>
+						注册
+					</li>
+				</ul>
+
+			</div>
+		</div>
+		<div id="Shopping">
+			
+			
+			
+			<div id="container">
+			<h1>购物车</h1>
+			<div class='list'><a href="new_file.gouwuc.html">返回商品列表</a></div>
+			<table border="1" cellspacing="0" cellpadding="0" id="table">
+				<thead>
+					<tr>
+						<th><input type="checkbox" id="allCheck"  />全选</th>
+						<th>图片</th>
+						<th>描述</th>
+						<th>数量</th>
+						<th>价格</th>
+						<th>小计</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody id="tbody">
+					<tr>
+						<td><input type="checkbox" class="ck" /></td>
+						<td><img src="img/main.img/p3.png"/></td>
+						<td>魅族</td>
+						<td><button class="down">-</button><input class="num" type="text"  /><button class="up">+</button></td>
+						<td>2599</td>
+						<td>1888</td>
+						<td><button id="del">删除</button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" class="ck" /></td>
+						<td><img src="img/main.img/p4.png"/></td>
+						<td>魅族</td>
+						<td><button class="down">-</button><input class="num" type="text"  /><button class="up">+</button></td>
+						<td>3599</td>
+						<td>1888</td>
+						<td><button id="del">删除</button></td>
+					</tr>
+				</tbody>
+				
+				
+			</table>
+			<div id="box">购物车是空的</div>
+			<div id="totalcount">总价格:0</div>
+		</div>
+			
+			
+
+			
+		</div>
+
+		<div id="footerBot">
+			<div id="">
+				<div id="">
+					<ul>
+						<li>
+							<img src="img/zhuylib.img/i1.png" /> 全场包邮
+						</li>
+						<li>
+							<img src="img/zhuylib.img/i2.png" /> 百城速达
+						</li>
+						<li>
+							<img src="img/zhuylib.img/i3.png" /> 7天无理由退货
+						</li>
+						<li>
+							<img src="img/zhuylib.img/i4.png" /> 15天换货保障
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<img src="img/zhuylib.img/i5.png" /> 1年免费保修
+						</li>
+						<li>
+							<img src="img/zhuylib.img/i6.png" /> 2300+线下体验店
+						</li>
+						<li>
+							<img src="img/zhuylib.img/i7.png" /> 远程支持服务
+						</li>
+						<li>
+							<img src="img/zhuylib.img/i8.png" /> 上门快修
+						</li>
+					</ul>
+
+				</div>
+				<div id="">
+					<p>24小时全国服务热线</p>
+					<p>400-788-3333</p>
+					<p>
+						<img src="img/zhuylib.img/weix.png" /> 在线客服
+					</p>
+				</div>
+
+			</div>
+			
+			<div id="">
+				<ul>
+					<li>了解魅族</li>
+					<li>加入我们</li>
+					<li>联系我们</li>
+					<li>Flyme</li>
+					<li>魅族社区</li>
+					<li>天猫旗舰店</li>
+					<li>问题反馈</li>
+					<li>线上销售授权名单公示</li>
+					<li>
+						<img src="img/zhuylib.img/yw1.jpg" />
+					</li>
+					<li>中文</li>
+				</ul>
+				<ul>
+					<li>©2017 Meizu Telecom Equipment Co., Ltd. All rights reserved.</li>
+					<li>粤ICP备13003602号</li>
+					<li>合字B2-20170010</li>
+					<li>营业执照</li>
+					<li>法律声明</li>
+					<li>
+						<img src="img/zhuylib.img/yw2.jpg" />
+					</li>
+					<li> 粤公网安备 44049102496009 号 </li>
+					<li>
+						<img src="img/zhuylib.img/yw3.jpg" />
+						<img src="img/zhuylib.img/yw6.jpg" />
+					</li>
+					<li>
+						<img src="img/zhuylib.img/yw4.jpg" />
+						<img src="img/zhuylib.img/yw7.jpg" />
+					</li>
+					<li>
+						<img src="img/zhuylib.img/yw5.jpg" />
+						<img src="img/zhuylib.img/yw8.jpg" />
+					</li>
+					<li>
+						<img src="img/zhuylib.img/yw9.jpg" />
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+	<script src="js/base.js">
+		
+	</script>
+	<script src="js/mycart.js">
+		
+	</script>
+
+</html>
