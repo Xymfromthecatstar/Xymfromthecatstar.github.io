@@ -24,11 +24,11 @@ login.onclick=function(){
 	}else if(!/^1[3|5|7|8][0-9](\d{4}|\d{8})$/.test(phone.value)){
 	alert("手机格式错误");
 		flag=false;
-	}else if(!Id.value){
-	alert("密码不能为空");
+	}else if(Id.value=="1234"){
+		window.location.href="index.html"
 		flag=false;
 	}else{
-		window.location.href="index.html"
+		 alert("密码错误");
 	}
 		
 }

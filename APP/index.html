@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<meta name="viewport" content="width=device-width,user-scalable=no">
 		<!--user-scalable=no-->
@@ -83,48 +84,12 @@
 				<div class="TabChildren">
 					<!--左切换-->
 					<div class="leftTab ">
-						<ul>
+						<ul v-for='(a,index) in arr'>
 							<li>
 								<a href="shop.html">
-									<img src="img/hw.png"/>
+									<img :src="a.src"/>
 								</a>
-								<p>The North Face</p>
-							</li>
-							<li>
-								<a>
-									<img src="img/hw.png"/>
-								</a>
-								<p>The North Face</p>
-							</li>
-							<li>
-								<a>
-									<img src="img/hw.png"/>
-								</a>
-								<p>The North Face</p>
-							</li>
-							<li>
-								<a>
-									<img src="img/hw.png"/>
-								</a>
-								<p>The North Face</p>
-							</li>
-							<li>
-								<a>
-									<img src="img/hw.png"/>
-								</a>
-								<p>The North Face</p>
-							</li>
-							<li>
-								<a>
-									<img src="img/hw.png"/>
-								</a>
-								<p>The North Face</p>
-							</li>
-							<li>
-								<a>
-									<img src="img/hw.png"/>
-								</a>
-								<p>The North Face</p>
+								<p>{{a.conent}}</p>
 							</li>
 						</ul>
 					</div>
